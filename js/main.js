@@ -11,7 +11,7 @@ function to_projects(x,y) {
 }
 
 function to_contact() {
-  window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Update%208-13-2019/TechResumeUBC%20(1).pdf");
+  window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Update%208-29-2019/TechResumeUBC%20(2).pdf");
 }
 
 // $(document).ready(function() {
