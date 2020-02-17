@@ -11,7 +11,7 @@ function to_projects(x,y) {
 }
 
 function to_contact() {
-  window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Job%20Search%20Resume/Software%20Resume/Update%201-31-2020/Software1312020.pdf");
+    window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Job%20Search%20Resume/Software%20Resume/Update%202-17-2020/Software2172020.pdf");
 }
 
 // $(document).ready(function() {
