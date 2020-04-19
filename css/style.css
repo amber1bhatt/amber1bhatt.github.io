@@ -69,16 +69,10 @@ nav ul li
   cursor: pointer;
 }
 
-/*
 nav a
 {
-  color: black;
-  background: linear-gradient(to left, #728bff, #764ba2);
-  padding: 10px 30px;
-  border-radius: 10px;
-  text-decoration: none;
+	color: black;
 }
-*/
 
 header
 {
@@ -416,35 +410,6 @@ header img
   /* margin-left: 50%; */
 }
 
-/*
-#iframepro1, #iframepro2, #iframepro3, #iframepro4
-{
-  display: none;
-}
-*/
-
-/*
-#btn-previewPro1, #btn-text1, #btn-previewPro2, #btn-text2, #btn-previewPro3, #btn-text3, #btn-previewPro4, #btn-text4
-{
-  font-size: 1.6853932584269662vh;
-  color: #fbfbfb;
-  padding: 10px 10px;
-  background: linear-gradient(to left, #728bff, #764ba2);
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  /* opacity: 0; */
-  /* animation: fadeUp 0.5s ease-in-out 0.9s forwards; */
-/*}*/
-
-/*
-#btn-previewPro1:hover, #btn-text1:hover, #btn-previewPro2:hover, #btn-text2:hover, #btn-previewPro3:hover, #btn-text3:hover, #btn-previewPro4:hover, #btn-text4:hover
-{
-  color: #EF767A;
-  transition: all 0.5s ease-in-out;
-}
-*/
-
 #projects-split
 {
   height: 45vh;
@@ -456,60 +421,3 @@ header img
   /* margin-left: 50%; */
 }
 
-/* #contact
-{
-  height: 90vh;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  display: flex;
-  width: 100%;
-  margin-left: 50%;
-} */
-
-/*
-#pro1
-{
-  height: 45vh;
-  width: 30%;
-  background: #DEC5E3;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #fbfbfb;
-  text-align: center;
-  color: black;
-}
-#pro2
-{
-  height: 45vh;
-  width: 30%;
-  background: #B6DCFE;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #fbfbfb;
-  text-align: center;
-  color: black;
-}
-#pro3
-{
-  height: 45vh;
-  width: 30%;
-  background: #A9F8FB;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #fbfbfb;
-  text-align: center;
-  color: black;
-}
-#pro4
-{
-  height: 45vh;
-  width: 30%;
-  background: #81F7E5;
-  border-style: solid;
-  border-width: 10px;
-  border-color: #fbfbfb;
-  text-align: center;
-  color: black;
-}
-*/
