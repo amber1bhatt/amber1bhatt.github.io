@@ -14,6 +14,10 @@ function to_contact() {
     window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Job%20Search%20Resume/Software%20Resume/Update%202-17-2020/Software2172020.pdf");
 }
 
+function change_theme() {
+	
+}
+
 // $(document).ready(function() {
 //   $("#button").click(function() {
 //     $("#pro1").show();
