@@ -4,10 +4,9 @@ function move(x,y) {
   window.scrollTo(x,y);
 }
 
-function to_contact() {
-    window.open("https://github.com/amber1bhatt/Tech-Resume/blob/master/Job%20Search%20Resume/Software%20Resume/Update%202-17-2020/Software2172020.pdf");
+function scrollFunction(id) {
+  document.getElementById(id).scrollIntoView({behavior:"smooth"});
 }
-
 
 const darkButton = document.getElementById('dark');
 const lightButton = document.getElementById('light');
