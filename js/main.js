@@ -41,6 +41,6 @@ sun_moon.onclick = () => {
   }
 }
 
-function openGithub(url) {
+function openURL(url) {
   window.open(url);
 }
