@@ -49,7 +49,7 @@ const PersonalInfo = () => {
       </div>
       <div className="absolute bottom-8">
         <Link href="/#projects">
-          <button aria-label="Scroll down">
+          <button aria-label="Scroll down" className="animate-bounce">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-8 w-8 text-gray-500 cursor-pointer"
