@@ -1,15 +1,23 @@
 // components/Card.js
 
 import React from "react";
+import Image from "next/image";
 
 const Card = ({ imageUrl, name, description, githubLink }) => {
   return (
     <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 overflow-hidden group relative transition-transform ease-in-out duration-300 hover:scale-105">
       <a href={githubLink} target="_blank" rel="noopener noreferrer">
-        <img
+        {/* <img
           className="rounded-t-lg w-full h-48 object-cover transition-opacity duration-300 group-hover:opacity-75"
           src={imageUrl}
           alt=""
+        /> */}
+        <Image
+          src={imageUrl}
+          width="1"
+          height="1"
+          alt=""
+          className="rounded-t-lg w-full h-48 object-cover transition-opacity duration-300 group-hover:opacity-75"
         />
       </a>
       <div className="p-5">

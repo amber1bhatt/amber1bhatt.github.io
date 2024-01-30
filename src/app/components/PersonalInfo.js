@@ -2,12 +2,15 @@
 
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 const PersonalInfo = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-4 relative">
-      <img
+      <Image
         src="https://media.licdn.com/dms/image/D5603AQH-OYiVjePn7g/profile-displayphoto-shrink_400_400/0/1705448168424?e=1712188800&v=beta&t=VwwyeXfM8YL7dSfVdxVNnpgaqkUbVTHG4FSaylbxdEI"
+        height="64"
+        width="64"
         alt="Your Face"
         className="w-64 h-64 object-cover rounded-full mb-4"
       />
