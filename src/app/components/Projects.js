@@ -50,12 +50,38 @@ const Projects = ({ projects }) => {
       <div className="flex mt-4">
         <div className="-rotate-90">
           <button aria-label="Previous" onClick={handlePrev} className="p-2">
-            <ArrowIcon height={6} width={6} />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-gray-500 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M5 10l7-7m0 0l7 7m-7-7v18"
+              />
+            </svg>
           </button>
         </div>
         <div className=" rotate-90">
           <button aria-label="Next" onClick={handleNext} className="p-2">
-            <ArrowIcon height={6} width={6} />
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-6 w-6 text-gray-500 cursor-pointer"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M5 10l7-7m0 0l7 7m-7-7v18"
+              />
+            </svg>{" "}
           </button>
         </div>
       </div>
