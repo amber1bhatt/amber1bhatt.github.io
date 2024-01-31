@@ -1,5 +1,3 @@
-// pages/index.js
-
 import React from "react";
 import Header from "./components/Header";
 import PersonalInfo from "./components/PersonalInfo";
@@ -29,12 +27,18 @@ const projectsData = [
     githubLink:
       "https://github.com/amber1bhatt/Kaggle-Datasets/blob/master/Health%20Insurance/health_insurance.ipynb",
   },
+  {
+    imageUrl: "/imgs/dividend_capture.JPG",
+    name: "Dividend Capture Calendar",
+    description:
+      "This simple tool helps you track and visualize upcoming dividend events for various stocks. The Dividend Calendar provides essential information about dividend-related dates and potential gains for selected stocks. ",
+    githubLink: "https://github.com/amber1bhatt/Dividend-Capture",
+  },
 ];
 
 const Home = () => {
   return (
     <>
-      {/* <Header /> */}
       <div className="flex flex-col items-center justify-center h-screen relative">
         <PersonalInfo />
       </div>
