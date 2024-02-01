@@ -34,6 +34,13 @@ const projectsData = [
       "This simple tool helps you track and visualize upcoming dividend events for various stocks. The Dividend Calendar provides essential information about dividend-related dates and potential gains for selected stocks. ",
     githubLink: "https://github.com/amber1bhatt/Dividend-Capture",
   },
+  {
+    imageUrl: "/imgs/color_palette_gen.JPG",
+    name: "Color Palette Generator",
+    description:
+      "The Color Palette Generator is a React-based web application that allows users to create and explore color palettes. It provides a color wheel interface for easy color selection and generates a palette based on the chosen colors.",
+    githubLink: "https://github.com/amber1bhatt/Color-Wheel",
+  },
 ];
 
 const Home = () => {
