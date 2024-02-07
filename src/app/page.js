@@ -40,6 +40,7 @@ const projectsData = [
     description:
       "The Color Palette Generator is a React-based web application that allows users to create and explore color palettes. It provides a color wheel interface for easy color selection and generates a palette based on the chosen colors.",
     githubLink: "https://github.com/amber1bhatt/Color-Wheel",
+    deploymentLink: "https://color-wheel-six.vercel.app/",
   },
 ];
 

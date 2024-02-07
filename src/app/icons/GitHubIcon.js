@@ -1,7 +1,7 @@
-const GitHubIcon = () => {
+const GitHubIcon = ({ url }) => {
   return (
     <a
-      href="https://github.com/amber1bhatt"
+      href={url ?? "https://github.com/amber1bhatt"}
       target="_blank"
       rel="noopener noreferrer"
     >
