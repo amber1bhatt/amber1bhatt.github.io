@@ -9,7 +9,7 @@ const PersonalInfo = () => {
   return (
     <div className="flex flex-col items-center justify-center h-screen space-y-4 relative">
       <Image
-        src="https://media.licdn.com/dms/image/D5635AQEcccLqO2NwBg/profile-framedphoto-shrink_400_400/0/1712544426993?e=1713157200&v=beta&t=6oTBK_vw4K4fOjK8zKp6uXAccwClxbuC9-JG9WYVETI"
+        src="./imgs/pfp.jpg"
         height="64"
         width="64"
         alt="Your Face"
